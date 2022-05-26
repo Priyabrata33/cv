@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<!-- dfegduywgduef -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- it is how you include the external css in the html file  -->
+    <link rel="stylesheet" href="harry.css">
+
+
+    <!-- this is how you include the external javaScript here -->
+    <script src="harry.js"></script>
+</head>
+<body>
+    <a href="https://www.google.com"  target="_blank">Google</a>      <!--blank can take the link to other that mean we create the page in other tab by the help of the "blank" -->
+    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    <a href="https://www.youtube.com" target="_blank">youtube</a>
+    <ul>
+        <li>here is the list of unorder list</li>
+        <li>here is the list of unorder list</li>
+        <li>here is the list of unorder list</li>
+    </ul>
+    <ol>
+        <li>here is the list of order list</li>
+        <li>here is the list of order list</li>
+        
+            <ol>
+                <li>another one</li>
+                <li>another two</li>                            <!--here we create the list under list in our website-->
+                <li>another three</li>
+            </ol>
+        
+        <li>here is the list of order list</li>
+    </ol>
+    <table>
+        <thead>
+            <tr>
+                <th>helow</th>
+                <th>roll</th>                       
+                <th>name</th>
+                <th>edu</th>
+                <th>viva</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>welcome</td>
+                <td>37</td>
+                <td>priybrata</td>
+                <td>mca</td>
+                <td>non</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <br>            <!--self closed tag we dont have to close it by tag-->
+    <br>
+
+<form action="Backend.php" style="border: 2px solid red;">         <!--named are help us to take the action back then in the helpof for our backend-->                          <!--give you the access to store them into the backend file -->
+    
+    <label for="name">Name:</label> 
+    <div>         
+        <input type="text" name="Name" id="name">
+    </div>                                               <!--We use the div tag for devide the tag and get into the next line here-->   
+    <br>
+    <label for="Role">Role:</label>
+    <div>
+        <input type="text" name="role" id="Role">
+    </div>
+    <br>                                                   <!--     try to ignore using the br tag we use css for the br tag -->
+    <label for="Email">Email</label>
+    <div>
+        <input type="email" name="Email" id="Email">          <!--we use the name attribute to access them into our backend profile-->
+
+    </div>
+    <br> 
+    
+    
+
+    <label for="contact">contact</label>
+    <div>
+        <input type="number" name="number" id="contact">         <!--we use the name attribute to access them into our backend profile-->
+
+    </div>
+    <br> 
+    
+    <label for="dob">Date of Birth:</label>
+    <div>
+        <input type="date" name="dob" id="dob">
+    </div>
+    <br>
+
+    <div>
+        Gender:
+        <label for="male">Male</label>
+        <input type="radio" name="myGender" id="male">
+
+        <label for="female">FeMale</label>
+        <input type="radio" name="myGender" id="female">       <!--we use radio for our own check list to store them in it-->
+        
+        <label for="other">other</label>
+        <input type="radio" name="myGender" id="other">         <!--we use radio for our own check list to store them in it-->
+    </div>            <!-- checked use to defauled checked sothing in the check list-->
+    <br>
+
+
+    <div>
+        <label for="check">Check the condition:</label>
+         <input type="checkbox" name="checkList" id="check">
+    </div>
+    <br>
+    <label for="text">Tell about yourself</label>
+    <br>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+
+    <br>
+        <div>
+    <label for="select">Choose your car</label>
+    <select name="car" id="select">
+
+        <option value="ind">indigo</option>
+        <option value="swt" selected>swift</option>  
+
+        <!-- when we use selected it can defaultly choose the selected tag -->
+
+    </select>
+</div>
+    <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </div>
+   
+</form>
+
+<br>
+
+<a style="border: 2px solid green;">this is a line content the whole block</a>
+<a style="border: 2px solid blue;">this is a also line content the whole block</a>
+
+   
+<span style="border: 2px solid purple;"> this is for the the line only not the block</span> 
+<br>
+
+<!-- uses of spna that is inline element -->
+
+
+<br>
+<li style="border: 2px solid red;">the li tag</li>
+
+
+<ul style="border: 2px solid yellow;">hyyyyyyyyyyy</ul>
+<em style="border: 2px solid yellow;">by them for checking </em>
+</body>
+</html>
